@@ -13,3 +13,5 @@ jobs:
     steps:
       - uses: DCI-EdTech/autograding-action@main
         id: autograder
+        with:
+          token: ${{ secrets.AUTOGRADING }}
